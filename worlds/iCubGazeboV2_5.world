@@ -94,6 +94,42 @@
             <uri>ground_plane</uri>
         </include>
 
+        <!--
+        <include>
+            <uri>rough_terrain</uri>
+        </include>
+        -->
+
+        <!--
+        <include>
+            <uri>drc_practice_wood_slats</uri>
+        </include>
+        -->
+
+        <!--
+        <include>
+            <uri>file:///rl/venv/lib/python3.6/site-packages/gym_ignition_models/drc_practice_wood_slats</uri>
+        </include>
+        -->
+
+        <!--
+        <include>
+            <pose>-2.0 0 0 0 0 0</pose>
+            <uri>file:///rl/venv/lib/python3.6/site-packages/gym_ignition_models/drc_practice_wood_slats</uri>
+        </include>
+        -->
+
+        <include>
+            <pose>-1.5 -1.5 0 0 0 0</pose>
+            <uri>file:///rl/venv/lib/python3.6/site-packages/gym_ignition_models/drc_practice_wood_slats</uri>
+        </include>
+
+        <!--
+        <include>
+            <uri>file:///home/kammo/.ignition/fuel/fuel.ignitionrobotics.org/openrobotics/models/Electrical Box/1/</uri>
+        </include>
+        -->
+
         <include>
             <pose>0 0 1.0 0 0 3.14</pose>
             <uri>iCubGazeboV2_5</uri>
