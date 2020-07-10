@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdf version="1.6">
-    <world name="default">
+    <world name="wood_slats">
         <physics default="true" type="dart">
             <max_step_size>0.001</max_step_size>
             <real_time_factor>1.0</real_time_factor>
@@ -100,40 +100,42 @@
         </include>
         -->
 
-        <!--
         <include>
-            <uri>drc_practice_wood_slats</uri>
-        </include>
-        -->
-
-        <!--
-        <include>
-            <uri>file:///rl/venv/lib/python3.6/site-packages/gym_ignition_models/drc_practice_wood_slats</uri>
-        </include>
-        -->
-
-        <!--
-        <include>
-            <pose>-2.0 0 0 0 0 0</pose>
-            <uri>file:///rl/venv/lib/python3.6/site-packages/gym_ignition_models/drc_practice_wood_slats</uri>
-        </include>
-        -->
-
-        <include>
-            <pose>-1.5 -1.5 0 0 0 0</pose>
+            <name>slats_1</name>
+            <pose>-1.8 -1.5 -0.075 0 0 0</pose>
             <uri>file:///rl/venv/lib/python3.6/site-packages/gym_ignition_models/drc_practice_wood_slats</uri>
         </include>
 
-        <!--
         <include>
-            <uri>file:///home/kammo/.ignition/fuel/fuel.ignitionrobotics.org/openrobotics/models/Electrical Box/1/</uri>
+            <name>slats_2</name>
+            <pose>-1.8 -1.25 -0.075 0 0 0</pose>
+            <uri>file:///rl/venv/lib/python3.6/site-packages/gym_ignition_models/drc_practice_wood_slats</uri>
         </include>
-        -->
 
+        <include>
+            <name>slats_3</name>
+            <pose>-1.8 -1.0 -0.075 0 0 0</pose>
+            <uri>file:///rl/venv/lib/python3.6/site-packages/gym_ignition_models/drc_practice_wood_slats</uri>
+        </include>
+
+        <include>
+            <name>slats_4</name>
+            <pose>-1.8 -0.75 -0.075 0 0 0</pose>
+            <uri>file:///rl/venv/lib/python3.6/site-packages/gym_ignition_models/drc_practice_wood_slats</uri>
+        </include>
+
+        <include>
+            <name>slats_5</name>
+            <pose>-1.8 -0.50 -0.075 0 0 0</pose>
+            <uri>file:///rl/venv/lib/python3.6/site-packages/gym_ignition_models/drc_practice_wood_slats</uri>
+        </include>
+
+        <!--
         <include>
             <pose>0 0 1.0 0 0 3.14</pose>
             <uri>iCubGazeboV2_5</uri>
         </include>
+        -->
 
     </world>
 </sdf>

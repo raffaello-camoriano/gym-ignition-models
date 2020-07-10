@@ -1,0 +1,53 @@
+<?xml version="1.0" ?> 
+<sdf version="1.6">
+   <world name="default">
+       <physics default="true" type="dart">
+       </physics>
+        
+       <light type="directional" name="sun">
+           <cast_shadows>true</cast_shadows>
+           <pose>0 0 10 0 0 0</pose>
+           <diffuse>1 1 1 1</diffuse>
+           <specular>0.5 0.5 0.5 1</specular>
+           <attenuation>
+               <range>1000</range>
+               <constant>0.9</constant>
+               <linear>0.01</linear>
+               <quadratic>0.001</quadratic>
+           </attenuation>
+           <direction>-0.5 0.1 -0.9</direction>
+       </light>
+       <include>
+           <uri>ground_plane</uri>
+       </include>
+               <include>
+            <name>slats_1</name>
+            <pose>-1.8 -1.5 -0.075 0 0 0</pose>
+            <uri>file:///rl/venv/lib/python3.6/site-packages/gym_ignition_models/drc_practice_wood_slats</uri>
+        </include>
+
+        <include>
+            <name>slats_2</name>
+            <pose>-1.8 -1.25 -0.075 0 0 0</pose>
+            <uri>file:///rl/venv/lib/python3.6/site-packages/gym_ignition_models/drc_practice_wood_slats</uri>
+        </include>
+
+        <include>
+            <name>slats_3</name>
+            <pose>-1.8 -1.0 -0.075 0 0 0</pose>
+            <uri>file:///rl/venv/lib/python3.6/site-packages/gym_ignition_models/drc_practice_wood_slats</uri>
+        </include>
+
+        <include>
+            <name>slats_4</name>
+            <pose>-1.8 -0.75 -0.075 0 0 0</pose>
+            <uri>file:///rl/venv/lib/python3.6/site-packages/gym_ignition_models/drc_practice_wood_slats</uri>
+        </include>
+
+        <include>
+            <name>slats_5</name>
+            <pose>-1.8 -0.50 -0.075 0 0 0</pose>
+            <uri>file:///rl/venv/lib/python3.6/site-packages/gym_ignition_models/drc_practice_wood_slats</uri>
+        </include>
+   </world>
+</sdf>
